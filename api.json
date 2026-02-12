@@ -1,0 +1,623 @@
+{
+  "category": "ENTITY_SPIRIT",
+
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-01-14",
+    "repository": "https://github.com/wyrdness/wendigo",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    },
+    "cultural_sensitivity": {
+      "warning_level": "critical",
+      "requires_indigenous_consultation": true,
+      "appropriation_concerns": "high",
+      "sacred_content": true
+    }
+  },
+
+  "phenomenon": {
+    "id": "wendigo",
+    "name": "Wendigo",
+    "aliases": [
+      {
+        "name": "Windigo",
+        "language": "Ojibwe",
+        "region": "Great Lakes region",
+        "meaning": "evil spirit"
+      },
+      {
+        "name": "Witiko",
+        "language": "Cree",
+        "region": "Northern Canada"
+      },
+      {
+        "name": "Wintiko",
+        "language": "Cree (variant spelling)",
+        "region": "Northern Canada"
+      },
+      {
+        "name": "Wiindigoo",
+        "language": "Ojibwe (variant spelling)",
+        "region": "Great Lakes"
+      },
+      {
+        "name": "Wendego",
+        "language": "Algonquian (variant)",
+        "region": "Northern USA"
+      },
+      {
+        "name": "Atchen",
+        "language": "Innu",
+        "region": "Labrador, Quebec",
+        "meaning": "cannibal spirit"
+      }
+    ],
+    "category": "ENTITY_SPIRIT",
+    "subcategory": "Indigenous Tradition",
+    "alternative_categories": [
+      "SHAPESHIFTER",
+      "MALEVOLENT_SPIRIT",
+      "CULTURAL_CAUTIONARY_FIGURE"
+    ],
+    "tags": [
+      "indigenous-spirituality",
+      "algonquian-tradition",
+      "cannibalism-taboo",
+      "winter-spirit",
+      "possession",
+      "transformation",
+      "sacred-content",
+      "cultural-sensitivity-required"
+    ],
+    "status": "active_tradition",
+    "description": {
+      "summary": "A malevolent spirit or supernatural being from Algonquian spiritual traditions, associated with winter, starvation, and cannibalism. Represents both a literal entity and cultural teachings about the gravest taboo—consuming human flesh during times of famine.",
+      "full": "The Wendigo is a deeply significant spiritual concept within Algonquian cultures including the Ojibwe, Cree, Innu, and related nations. Traditionally understood as a malevolent spirit associated with winter, famine, greed, and cannibalism, the Wendigo serves as both a supernatural entity and a powerful cultural teaching about the most serious taboos. In traditional accounts, a person who resorts to cannibalism—whether through starvation or choice—may become possessed by a Wendigo spirit or transform into one, developing an insatiable hunger for human flesh. The Wendigo grows larger with each victim consumed, yet remains eternally starving. This concept reflects the harsh realities of survival in northern winters and the critical importance of maintaining human dignity and cultural values even in the face of starvation. The Wendigo is sacred subject matter representing real historical trauma, spiritual warnings, and survival ethics central to Algonquian peoples."
+    },
+    "etymology": {
+      "origin": "From Proto-Algonquian *wi·nteko·wa, meaning 'owl' or 'evil spirit that devours mankind'",
+      "meaning": "Often translated as 'evil spirit,' 'cannibal,' or 'one who lives alone'",
+      "linguistic_notes": "Spelling varies significantly across Algonquian languages and dialects. Pronunciation and meaning nuances differ between nations."
+    }
+  },
+
+  "classification": {
+    "taxonomy": {
+      "category": "ENTITY_SPIRIT",
+      "type": "Malevolent Spirit",
+      "subtype": "Cannibal Spirit / Possession Entity",
+      "variant": "Algonquian Tradition",
+      "cultural_context": "Indigenous North American spirituality"
+    },
+    "related_phenomena": [
+      {
+        "id": "skinwalker",
+        "name": "Skinwalker",
+        "relationship": "parallel",
+        "description": "Navajo malevolent shapeshifter, also sacred Indigenous content"
+      },
+      {
+        "id": "bakwas",
+        "name": "Bakwas (Wild Man of the Woods)",
+        "relationship": "regional_variant",
+        "description": "Pacific Northwest Coast Indigenous spirit being"
+      },
+      {
+        "id": "ice-giants",
+        "name": "Ice Giants (Norse)",
+        "relationship": "thematic_parallel",
+        "description": "Winter-associated malevolent beings from European tradition"
+      }
+    ]
+  },
+
+  "characteristics": {
+    "physical": {
+      "traditional_description": "Varies significantly by tradition and storyteller. Not consistently described as having specific physical form.",
+      "common_depictions": [
+        {
+          "description": "Gaunt humanoid with emaciated, corpse-like appearance",
+          "source": "Some Cree and Ojibwe accounts",
+          "frequency": "common"
+        },
+        {
+          "description": "Giant growing larger with each victim consumed",
+          "source": "Various Algonquian traditions",
+          "frequency": "common"
+        },
+        {
+          "description": "Lipless mouth with jagged teeth",
+          "source": "Some traditional accounts",
+          "frequency": "occasional"
+        },
+        {
+          "description": "Made of ice or associated with frost",
+          "source": "Winter spirit associations",
+          "frequency": "common"
+        },
+        {
+          "description": "Glowing eyes",
+          "source": "Various accounts",
+          "frequency": "occasional"
+        }
+      ],
+      "modern_misconceptions": [
+        {
+          "misconception": "Depicted as having deer or elk skull for head with antlers",
+          "reality": "This is a modern invention popularized by horror games and films, NOT traditional to Algonquian cultures",
+          "appropriation_concern": "high",
+          "notes": "The 'deer skull monster' imagery is cultural appropriation and misrepresentation"
+        },
+        {
+          "misconception": "Consistently depicted as tall, antlered forest creature",
+          "reality": "Traditional descriptions vary; physical form is often secondary to spiritual/possession aspects",
+          "notes": "Pop culture has created false 'standard' appearance"
+        }
+      ],
+      "important_note": "Physical descriptions vary greatly and were not the primary focus of traditional teachings. The Wendigo's spiritual and moral significance far outweighs any specific physical depiction."
+    },
+    "abilities": [
+      {
+        "ability": "Possession",
+        "description": "Can possess individuals, causing them to develop cannibalistic urges",
+        "frequency": "primary",
+        "evidence_level": "traditional_teaching"
+      },
+      {
+        "ability": "Insatiable hunger",
+        "description": "Never satisfied; grows larger with each victim but remains starving",
+        "frequency": "always",
+        "evidence_level": "traditional_teaching"
+      },
+      {
+        "ability": "Growth",
+        "description": "Increases in size with each victim consumed",
+        "frequency": "common",
+        "evidence_level": "traditional_teaching"
+      },
+      {
+        "ability": "Inducing fear and madness",
+        "description": "Presence causes extreme fear, paranoia, and mental deterioration",
+        "frequency": "common",
+        "evidence_level": "traditional_teaching"
+      },
+      {
+        "ability": "Transformation",
+        "description": "Humans can transform into Wendigo through cannibalism or extreme greed",
+        "frequency": "primary",
+        "evidence_level": "traditional_teaching"
+      },
+      {
+        "ability": "Winter association",
+        "description": "Connected to winter, cold, and starvation conditions",
+        "frequency": "always",
+        "evidence_level": "traditional_teaching"
+      }
+    ],
+    "behavior": {
+      "disposition": "malevolent",
+      "primary_characteristics": [
+        "Insatiable cannibalistic hunger",
+        "Represents greed and excess",
+        "Violation of most sacred taboo (cannibalism)",
+        "Loss of humanity and reason",
+        "Eternal starvation despite consumption"
+      ],
+      "cultural_meaning": [
+        "Warning against cannibalism even in desperation",
+        "Teaching about maintaining human dignity in hardship",
+        "Representation of greed and selfishness",
+        "Consequence of violating sacred taboos",
+        "Spiritual concept about losing one's humanity"
+      ],
+      "transformation_triggers": [
+        "Cannibalism during famine",
+        "Extreme greed or selfishness",
+        "Spiritual corruption",
+        "Isolation and desperation"
+      ]
+    }
+  },
+
+  "distribution": {
+    "range": {
+      "description": "Traditional Wendigo beliefs are specific to Algonquian-speaking peoples of northern forests and subarctic regions of North America.",
+      "continents": ["North America"],
+      "countries": ["Canada", "United States"],
+      "regions": [
+        "Northern Ontario",
+        "Northern Quebec",
+        "Manitoba",
+        "Saskatchewan",
+        "Alberta",
+        "Northern Minnesota",
+        "Northern Wisconsin",
+        "Northern Michigan",
+        "Labrador"
+      ],
+      "cultural_regions": [
+        "Ojibwe territories",
+        "Cree territories",
+        "Innu territories",
+        "Algonquin territories",
+        "Oji-Cree territories"
+      ]
+    },
+    "cultural_distribution": {
+      "primary_nations": [
+        {
+          "name": "Ojibwe (Anishinaabe)",
+          "regions": ["Great Lakes", "Northern Ontario", "Manitoba"],
+          "traditional_term": "Windigo/Wiindigoo"
+        },
+        {
+          "name": "Cree",
+          "regions": ["Northern Canada", "Saskatchewan", "Manitoba", "Quebec"],
+          "traditional_term": "Witiko/Wintiko"
+        },
+        {
+          "name": "Innu",
+          "regions": ["Labrador", "Quebec"],
+          "traditional_term": "Atchen"
+        },
+        {
+          "name": "Algonquin",
+          "regions": ["Quebec", "Ontario"],
+          "traditional_term": "Wendigo"
+        },
+        {
+          "name": "Oji-Cree",
+          "regions": ["Northern Ontario", "Northern Manitoba"],
+          "traditional_term": "Wiindigoo"
+        }
+      ]
+    },
+    "temporal": {
+      "first_recorded": {
+        "date": "Ancient",
+        "circa": true,
+        "source": "Part of oral tradition predating European contact by centuries or millennia"
+      },
+      "european_documentation": {
+        "earliest": "1600s",
+        "source": "Jesuit missionary accounts from New France"
+      }
+    }
+  },
+
+  "history": {
+    "origins": {
+      "cultural_roots": "The Wendigo is an ancient spiritual concept deeply embedded in Algonquian worldviews and survival ethics. It emerged from the harsh realities of northern winters where starvation was a real danger, and served as crucial cultural teaching about maintaining humanity even in extreme circumstances.",
+      "earliest_accounts": "Oral traditions dating back centuries before European contact. Fundamental to Algonquian spiritual worldviews.",
+      "spiritual_significance": "Represents the most serious transgression—cannibalism—and the loss of one's humanity. Central to teachings about survival ethics, community responsibility, and spiritual balance."
+    },
+    "timeline": [
+      {
+        "date": "Pre-contact",
+        "event": "Wendigo traditions established in oral teachings",
+        "significance": "Ancient spiritual concept integral to Algonquian cultures",
+        "source": "Oral tradition"
+      },
+      {
+        "date": "1636",
+        "event": "Early Jesuit missionary documentation",
+        "significance": "First European written records of Wendigo beliefs",
+        "source": "Jesuit Relations",
+        "notes": "European interpretations often misunderstood spiritual context"
+      },
+      {
+        "date": "1661",
+        "event": "Pierre Boucher describes 'Manitou' beings including cannibalistic spirits",
+        "significance": "Early French colonial documentation",
+        "source": "Histoire véritable et naturelle"
+      },
+      {
+        "date": "1800s",
+        "event": "Multiple documented cases of 'Wendigo killings'",
+        "significance": "Community responses to individuals believed possessed or transformed",
+        "source": "Hudson's Bay Company records, missionary accounts",
+        "cultural_context": "Reflected serious cultural response to perceived spiritual threat and community protection"
+      },
+      {
+        "date": "1907",
+        "event": "Execution of Jack Fiddler",
+        "significance": "Ojibwe shaman executed by Canadian authorities for killing individuals he believed were Wendigos",
+        "source": "Court records",
+        "notes": "Represents colonial legal system conflict with Indigenous spiritual practices"
+      },
+      {
+        "date": "1960s-1980s",
+        "event": "'Wendigo psychosis' concept in psychiatric literature",
+        "significance": "Controversial psychiatric classification of culture-bound syndrome",
+        "source": "Anthropological and psychiatric journals",
+        "controversy": "Now widely criticized as colonial pathologization of Indigenous spiritual beliefs"
+      },
+      {
+        "date": "1980s-present",
+        "event": "Wendigo enters popular horror culture",
+        "significance": "Increasing appropriation and misrepresentation in games, films, literature",
+        "source": "Popular media",
+        "appropriation_concerns": "critical",
+        "notes": "Often stripped of cultural context and reduced to generic monster"
+      },
+      {
+        "date": "2010s-present",
+        "event": "Indigenous voices speak out against appropriation",
+        "significance": "Growing awareness of disrespectful use of sacred Indigenous concepts",
+        "source": "Indigenous scholars, activists, cultural leaders"
+      }
+    ],
+    "colonial_impact": {
+      "summary": "European colonization profoundly affected Wendigo traditions through missionary suppression, legal persecution, and psychiatric pathologization.",
+      "specific_impacts": [
+        "Jesuit missionaries framed Wendigo beliefs as 'devil worship' or 'superstition'",
+        "Canadian/US legal systems criminalized traditional responses to Wendigo possession",
+        "Psychiatric establishment created 'Wendigo psychosis' diagnosis, pathologizing spiritual beliefs",
+        "Residential schools suppressed traditional teachings",
+        "Modern appropriation continues colonial pattern of taking without understanding"
+      ]
+    }
+  },
+
+  "cultural_context": {
+    "sacred_nature": {
+      "warning": "CRITICAL: The Wendigo is sacred and serious subject matter for Algonquian peoples. This is not entertainment or folklore—it represents real spiritual teachings about survival, morality, and the gravest taboos.",
+      "significance": [
+        "Central to spiritual worldview and survival ethics",
+        "Teaches about maintaining humanity in extreme circumstances",
+        "Represents consequences of violating sacred taboos",
+        "Connected to real historical trauma of starvation and survival",
+        "Part of living spiritual tradition, not extinct mythology"
+      ],
+      "respect_requirements": [
+        "Recognize this as serious spiritual subject matter",
+        "Understand connection to real historical trauma",
+        "Do not trivialize or use for entertainment without context",
+        "Consult Indigenous knowledge keepers and cultural authorities",
+        "Acknowledge continuing significance to Indigenous communities"
+      ]
+    },
+    "appropriation_concerns": {
+      "level": "critical",
+      "issues": [
+        {
+          "concern": "Horror media misrepresentation",
+          "description": "Video games, films, and books often strip Wendigo of cultural context and reduce to generic monster",
+          "impact": "Disrespects sacred teachings, spreads misinformation, continues colonial erasure"
+        },
+        {
+          "concern": "'Deer skull monster' imagery",
+          "description": "Modern pop culture invention (not traditional) has become dominant false image",
+          "impact": "Erases actual Indigenous teachings, creates inauthentic 'standard' depiction"
+        },
+        {
+          "concern": "Commodification",
+          "description": "Wendigo imagery used for products, entertainment, without permission or respect",
+          "impact": "Economic exploitation of Indigenous spiritual concepts"
+        },
+        {
+          "concern": "Removal of cultural context",
+          "description": "Wendigo presented without explaining Algonquian cultural significance",
+          "impact": "Treats sacred concept as free resource for non-Indigenous consumption"
+        }
+      ],
+      "guidance": [
+        "Do not create Wendigo content without consulting Indigenous cultural advisors",
+        "Always center Algonquian perspectives and voices",
+        "Provide full cultural context when discussing Wendigo",
+        "Avoid sensationalized horror depictions that disrespect sacred nature",
+        "Support Indigenous creators telling their own stories"
+      ]
+    },
+    "historical_trauma": {
+      "context": "Wendigo traditions emerged from and speak to real experiences of starvation, survival, and the horrific choice between death and cannibalism during harsh northern winters.",
+      "real_history": [
+        "Documented cases of starvation cannibalism among fur trappers and explorers",
+        "Indigenous communities faced extreme food scarcity during harsh winters",
+        "Wendigo teachings reinforced critical survival ethics",
+        "Post-contact, colonization disrupted traditional food systems, increasing scarcity",
+        "Wendigo cases sometimes reflected genuine psychological distress from trauma"
+      ],
+      "understanding": "The Wendigo is not simply a 'scary monster story'—it addresses real human experiences of desperation, trauma, and the need to maintain moral boundaries even when facing death."
+    },
+    "wendigo_psychosis_controversy": {
+      "psychiatric_claim": "Western psychiatry in the 1960s-1980s classified 'Wendigo psychosis' as a culture-bound syndrome characterized by cannibalistic obsession",
+      "criticisms": [
+        {
+          "criticism": "Colonial pathologization",
+          "explanation": "Framed Indigenous spiritual beliefs as mental illness rather than cultural teachings"
+        },
+        {
+          "criticism": "Limited evidence",
+          "explanation": "Based on very few documented cases, often filtered through non-Indigenous observers"
+        },
+        {
+          "criticism": "Cultural misunderstanding",
+          "explanation": "Failed to understand symbolic and teaching aspects of Wendigo traditions"
+        },
+        {
+          "criticism": "Psychiatric imperialism",
+          "explanation": "Imposed Western psychiatric categories on Indigenous spiritual experiences"
+        }
+      ],
+      "current_understanding": "Most contemporary scholars recognize 'Wendigo psychosis' diagnosis as problematic. The phenomenon is better understood as combination of: extreme starvation stress, spiritual belief systems, cultural responses to taboo violation, and colonial misinterpretation.",
+      "indigenous_perspectives": "Many Indigenous scholars emphasize that Wendigo is primarily a spiritual teaching and moral framework, not a psychiatric diagnosis."
+    },
+    "living_tradition": {
+      "status": "Active and continuing spiritual tradition within Algonquian communities",
+      "contemporary_significance": [
+        "Still taught as moral and spiritual lesson",
+        "Represents ongoing concerns about greed and excess",
+        "Metaphor applied to modern contexts (corporate greed, environmental destruction)",
+        "Continues to hold spiritual significance",
+        "Elders and knowledge keepers maintain teachings"
+      ],
+      "modern_interpretations": "Some Indigenous thinkers apply Wendigo concept to modern forms of consumption, greed, and cannibalistic capitalism—entities that consume endlessly without satisfaction."
+    }
+  },
+
+  "evidence": {
+    "type": "cultural_spiritual_tradition",
+    "note": "The Wendigo is a spiritual and cultural concept, not a cryptozoological claim requiring physical evidence. Its 'evidence' exists in oral traditions, spiritual teachings, and cultural practices.",
+    "traditional_accounts": [
+      {
+        "type": "oral tradition",
+        "description": "Centuries of teachings passed through Algonquian communities",
+        "status": "ongoing_tradition"
+      },
+      {
+        "type": "historical_documentation",
+        "description": "European accounts of Wendigo beliefs and related incidents",
+        "status": "documented",
+        "notes": "Often filtered through colonial misunderstanding"
+      },
+      {
+        "type": "cultural_practices",
+        "description": "Ceremonies, teachings, and community responses to Wendigo concerns",
+        "status": "traditional_practice"
+      }
+    ],
+    "historical_cases": [
+      {
+        "description": "Jack Fiddler and Joseph Fiddler (Ojibwe shamans) claimed to have killed 14 Wendigos",
+        "date": "1870s-1907",
+        "context": "Traditional spiritual protection of community",
+        "outcome": "Both arrested; Jack committed suicide, Joseph served prison time",
+        "significance": "Demonstrates conflict between Indigenous spiritual practices and colonial legal system"
+      },
+      {
+        "description": "Swift Runner case",
+        "date": "1879",
+        "context": "Cree man convicted of murdering and cannibalizing his family during winter",
+        "outcome": "Executed",
+        "significance": "Often cited in 'Wendigo psychosis' literature; reflects extreme starvation circumstances"
+      }
+    ]
+  },
+
+  "theories": {
+    "indigenous_understanding": [
+      {
+        "perspective": "Spiritual entity",
+        "description": "Wendigo is a real spiritual being or force that can possess or transform humans",
+        "holders": "Traditional Algonquian spiritual perspective"
+      },
+      {
+        "perspective": "Moral teaching framework",
+        "description": "Wendigo serves as powerful cautionary teaching about taboos and ethics",
+        "holders": "Indigenous and non-Indigenous scholars of Algonquian culture"
+      },
+      {
+        "perspective": "Both literal and metaphorical",
+        "description": "Wendigo operates on multiple levels—spiritual reality and teaching tool",
+        "holders": "Many Indigenous knowledge keepers"
+      }
+    ],
+    "academic_interpretations": [
+      {
+        "theory": "Cultural mechanism for survival ethics",
+        "description": "Wendigo beliefs reinforced critical taboo against cannibalism, ensuring community cohesion in harsh conditions",
+        "proponents": ["Cultural anthropologists"],
+        "notes": "Respectful academic analysis of cultural function"
+      },
+      {
+        "theory": "Symbolic representation of extremes",
+        "description": "Wendigo symbolizes greed, excess, and loss of humanity",
+        "proponents": ["Religious studies scholars", "Indigenous scholars"],
+        "modern_applications": "Applied to capitalism, consumerism, environmental destruction"
+      }
+    ],
+    "rejected_theories": [
+      {
+        "theory": "'Wendigo psychosis' as psychiatric disorder",
+        "description": "Classification as culture-bound syndrome",
+        "status": "widely_criticized",
+        "problems": [
+          "Colonial pathologization of Indigenous beliefs",
+          "Based on minimal evidence",
+          "Cultural misunderstanding",
+          "Psychiatic imperialism"
+        ]
+      },
+      {
+        "theory": "Cryptozoological interpretation",
+        "description": "Wendigo as unknown creature species",
+        "status": "misunderstanding",
+        "notes": "Fundamentally misses spiritual and cultural nature of Wendigo"
+      }
+    ]
+  },
+
+  "resources": {
+    "indigenous_organizations": [
+      {
+        "name": "Ojibwe cultural centers",
+        "note": "Consult local Ojibwe communities for authentic cultural information",
+        "approach": "Contact tribal cultural offices with respect"
+      },
+      {
+        "name": "Cree cultural centers",
+        "note": "Many Cree nations have cultural education programs",
+        "approach": "Reach out respectfully to tribal education departments"
+      },
+      {
+        "name": "Native American studies departments",
+        "note": "Academic institutions with Indigenous scholars and programs"
+      }
+    ],
+    "respectful_resources": [
+      {
+        "type": "Book",
+        "title": "Windigo: An Anthology of Fact and Fantastic Fiction",
+        "editor": "John Robert Colombo",
+        "note": "Collection includes Indigenous perspectives"
+      },
+      {
+        "type": "Academic",
+        "note": "Seek publications by Indigenous scholars of Algonquian cultures"
+      }
+    ],
+    "consultation_guidance": "Before creating any content involving Wendigo, consult with Algonquian cultural advisors, elders, or appropriate tribal cultural offices. This is not optional—it is a matter of respect and accuracy."
+  },
+
+  "sources": [
+    {
+      "id": "brightman-1988",
+      "type": "journal_article",
+      "title": "The Windigo in the Material World",
+      "authors": ["Robert Brightman"],
+      "publication": "Ethnohistory",
+      "date": "1988",
+      "volume": "35",
+      "issue": "4",
+      "pages": "337-379"
+    },
+    {
+      "id": "colombo-1982",
+      "type": "book",
+      "title": "Windigo: An Anthology of Fact and Fantastic Fiction",
+      "editor": "John Robert Colombo",
+      "publication": "Western Producer Prairie Books",
+      "date": "1982",
+      "isbn": "978-0888330482"
+    },
+    {
+      "id": "carlson-2009",
+      "type": "journal_article",
+      "title": "Windigo Psychosis: A Fascinating But Contested Concept in Psychiatry",
+      "authors": ["Nathan G. Carlson"],
+      "publication": "Harvard Review of Psychiatry",
+      "date": "2009"
+    }
+  ]
+}
