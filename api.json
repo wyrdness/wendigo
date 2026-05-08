@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/wendigo",
     "maintainers": [
       {
@@ -16,72 +16,142 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "wendigo",
     "name": "Wendigo",
-    "aliases": [],
+    "aliases": [
+      { "name": "Windigo", "language": "Anishinaabemowin / English (variant)", "region": "Ojibwe regions" },
+      { "name": "Wiindigoo", "language": "Anishinaabemowin (Ojibwe)", "region": "Ojibwe homelands" },
+      { "name": "Wīhtikōw", "language": "Cree", "region": "Cree territories" },
+      { "name": "Witiko", "language": "Cree (variant transliteration)", "region": "Cree territories" },
+      { "name": "Wetiko", "language": "Cree (variant)", "region": "Cree territories" },
+      { "name": "Atchen / Atshen", "language": "Innu (Naskapi/Montagnais)", "region": "Quebec/Labrador" }
+    ],
     "category": "ENTITY_SPIRIT",
-    "subcategory": "that Indigenous beliefs are \\\"primitive\\\" or \\\"irrational\\\"",
+    "subcategory": "Algonquian malevolent / cannibal spirit",
     "tags": [
+      "algonquian",
+      "ojibwe",
+      "cree",
+      "innu",
+      "north-america",
+      "winter",
+      "cannibal",
+      "spirit",
       "folklore",
-      "mythology"
+      "mythology",
+      "indigenous"
     ],
     "status": "documented",
     "description": {
-      "summary": "The Wendigo (also spelled Windigo, Witiko, Wiindigoo) is a malevolent spirit or supernatural being central to the spiritual traditions of Algonquian-speaking peoples, including the Ojibwe, Cree, Innu, Algonquin, and related nations of northern North America.",
-      "full": "The Wendigo (also spelled Windigo, Witiko, Wiindigoo) is a malevolent spirit or supernatural being central to the spiritual traditions of Algonquian-speaking peoples, including the Ojibwe, Cree, Innu, Algonquin, and related nations of northern North America. In traditional teachings, the Wendigo is associated with winter, starvation, greed, and most critically, **cannibalism**—the gravest taboo. A person who resorts to eating human flesh, whether through starvation or choice, may become possessed by a Wendigo spirit or transform into one, developing an insatiable hunger for human flesh that can never be satisfied. The Wendigo grows larger with each victim consumed, yet remains eternally starving."
+      "summary": "A malevolent spirit-being central to the traditions of Algonquian-speaking peoples of northern North America, embodying winter, famine, greed, and the gravest taboo of cannibalism; humans who break that taboo are said to risk transformation into a wendigo.",
+      "full": "The wendigo is a malevolent spirit-being from the traditions of Algonquian-speaking peoples of northern North America, including the Ojibwe (Anishinaabe), Cree, Innu (Naskapi-Montagnais), Algonquin, and Saulteaux. Spellings vary widely across languages and orthographies: Anishinaabemowin wiindigoo, Cree wīhtikōw / wetiko / witiko, and Innu atchen / atshen. Traditional teachings describe the wendigo as gaunt, skeletal, ash-gray, and associated with winter, ice, hunger, and isolation; some teachings cast it as a giant many times human size that grows larger with every victim consumed and yet remains eternally starving. The wendigo is most strongly associated with the gravest of social taboos — cannibalism — and tradition holds that humans may become wendigos through resorting to cannibalism in famine, through sustained contact with a wendigo, or through being overcome by greed. The word's English-language popularisation owes much to Algernon Blackwood's 1910 novella The Wendigo. Within Algonquian communities the wendigo continues to be invoked as a moral and ecological figure — increasingly read by Indigenous scholars (e.g., Jack D. Forbes, Robin Wall Kimmerer, Basil Johnston) as a metaphor for greed, ecological destruction, and colonial violence — quite distinct from the wendigo of horror fiction."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "From Proto-Algonquian *wi·nteko·wa, possibly meaning 'owl' or 'malevolent spirit'; reflexes include Ojibwe wiindigoo, Cree wīhtikōw, and Innu atchen.",
+      "meaning": "Often glossed in English as 'cannibal spirit' or 'evil being of winter'.",
+      "first_use": "Algonquian languages prior to European contact; English-language attestations from the 17th century onwards (e.g., in Jesuit Relations); the spelling 'wendigo' popularised by Blackwood (1910)."
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "ENTITY_SPIRIT",
-      "type": "that Indigenous beliefs are \\\"primitive\\\" or \\\"irrational\\\"",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Malevolent spirit",
+      "subtype": "Algonquian cannibal / winter spirit",
+      "variant": "Pan-Algonquian"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "wendigo-cree", "name": "Wendigo (Cree)", "relationship": "regional_variant", "description": "Specifically Cree (wīhtikōw / wetiko) treatment of the same underlying tradition" },
+      { "id": "atshen", "name": "Atshen (Innu)", "relationship": "regional_variant", "description": "Innu / Naskapi cognate cannibal-spirit being" },
+      { "id": "skadegamutc", "name": "Skadegamutc (Wabanaki ghost-witch)", "relationship": "similar", "description": "Algonquian neighbour cannibal-undead figure" },
+      { "id": "rugaru", "name": "Rougarou / Rugaru", "relationship": "related", "description": "Métis/French-Canadian shape-shifter, sometimes conflated with wendigo" },
+      { "id": "wechuge", "name": "Wechuge (Dane-zaa)", "relationship": "similar", "description": "Northern-Athabaskan cannibal-spirit being" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "coloration": ["ash-gray", "frost-white", "blackened from frostbite"],
+      "features": [
+        { "feature": "Skeletal, emaciated body", "description": "Traditional descriptions emphasise gauntness and skin pulled tightly over bone, despite the spirit's voracious hunger", "frequency": "common" },
+        { "feature": "Towering height", "description": "Some teachings describe a wendigo as a giant many times the height of a human, growing in proportion to its victims", "frequency": "occasional" },
+        { "feature": "Heart of ice", "description": "Some Algonquian teachings hold that a wendigo's heart is literally frozen", "frequency": "occasional" },
+        { "feature": "Stench of decay", "description": "Often described as carrying a powerful odour of corruption", "frequency": "common" }
+      ],
+      "morphology": "Variable across communities; broadly humanoid but emaciated, skeletal, and elongated, sometimes giant."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Insatiable hunger", "description": "Eternal, never-satisfied craving for human flesh", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Possession of humans", "description": "May possess or transform a human, especially one who has resorted to cannibalism", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Cold-bringing", "description": "Associated with winter, blizzards, and unnatural cold; said to bring frost upon the camp", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Vast strength and endurance", "description": "Described as stronger and more enduring than any human, especially in deep cold", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Cannot be slain by ordinary means", "description": "Traditional teaching holds that the wendigo can only be killed by destroying the icy heart, often by fire", "frequency": "common", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "nocturnal",
+      "disposition": "aggressive",
+      "social_structure": "solitary",
+      "habitat_preference": ["boreal forest", "deep winter wilderness", "isolated trapline camps", "lake-and-river country of central Canada and the northern United States"],
+      "diet": "Cannibalistic; feeds on human flesh and grows yet hungrier with every victim.",
+      "patterns": [
+        "Targets isolated travellers, hunters, and starving families in winter",
+        "Most active in famine and prolonged cold",
+        "Associated narratively with broken taboos, especially the eating of human flesh"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Pan-Algonquian, with strongest presence in the boreal-forest territories of the Ojibwe, Cree, Innu, Algonquin, and Saulteaux peoples across central and eastern Canada and the upper Midwest of the United States.",
+      "continents": ["North America"],
+      "countries": ["Canada", "United States"],
+      "regions": [
+        "Boreal forest / taiga",
+        "Ontario",
+        "Manitoba",
+        "Quebec",
+        "Labrador",
+        "Saskatchewan",
+        "Alberta",
+        "Minnesota",
+        "Wisconsin",
+        "Michigan (Upper Peninsula)"
+      ]
     },
     "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "Pre-contact",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Algonquian oral traditions; earliest non-Indigenous records in Jesuit Relations (17th century)"
+      },
+      "peak_activity_periods": [
+        { "period": "1870s–1910s", "description": "Period of best-documented Wendigo-related historical incidents on the prairies and in the boreal forest, including the Swift Runner case (1878–1879) and the Jack Fiddler / Joseph Fiddler arrests (1907)" },
+        { "period": "1910–present", "description": "Literary and academic engagement, including Algernon Blackwood's 1910 novella and the long Marano–Brightman debate over 'wendigo psychosis'" }
+      ]
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Long-standing Algonquian spiritual tradition; the wendigo is integral to teachings about taboo, hunger, and proper conduct in the boreal-forest environment.",
+      "earliest_accounts": "Indigenous oral tradition predates European contact; the earliest non-Indigenous records appear in 17th-century Jesuit Relations from New France.",
+      "folklore_connections": "Closely connected to other Algonquian malevolent spirits and winter beings; comparable in some respects to Athabaskan wechuge and Wabanaki skadegamutc figures."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1878-12-01", "event": "Plains Cree man Swift Runner (Ka-Ki-Si-Kutchin) kills and eats his wife, mother, brother, and six children near Fort Saskatchewan, Alberta, despite available food", "significance": "One of the most fully documented historical 'wendigo'-framed criminal cases", "source": "Carlson, N. (2009), 'Reviving Witiko (Windigo)', Ethnohistory" },
+      { "date": "1879-12-20", "event": "Swift Runner is hanged at Fort Saskatchewan, Alberta — the first judicial execution in what would become Alberta", "significance": "Anchors the historical 'wendigo' record in colonial Canadian legal history", "source": "RCMP / Carlson (2009)" },
+      { "date": "1907-09-30", "event": "Oji-Cree leader Jack Fiddler (Zhauwuno-geezhigo-gaubow), arrested by the North-West Mounted Police on charges relating to the killing of Wahsakapeequay, who was said to have been turning into a wendigo, dies by suicide in custody at Norway House", "significance": "Marks the imposition of Canadian law over Sucker-clan traditional practice on the wendigo", "source": "Fiddler, T. & Stevens, J. R. (1985), Killing the Shamen" },
+      { "date": "1910-01-01", "event": "Algernon Blackwood publishes the novella The Wendigo, popularising the spelling 'wendigo' in English-language fiction", "significance": "Anchors the modern English-language literary form of the figure", "source": "Blackwood, A. (1910), The Wendigo" },
+      { "date": "1982-01-01", "event": "Lou Marano publishes 'Windigo Psychosis: The Anatomy of an Emic-Etic Confusion' in Current Anthropology, arguing that windigo psychosis as a behavioural syndrome did not exist", "significance": "Begins the principal scholarly debate on wendigo psychosis", "source": "Marano, L. (1982), Current Anthropology 23(4)" },
+      { "date": "1988-01-01", "event": "Robert A. Brightman publishes 'The Windigo in the Material World' in Ethnohistory, arguing in response to Marano that the witiko complex was historically substantive in Cree communities", "significance": "Major counter-position in the scholarly debate", "source": "Brightman, R. A. (1988), Ethnohistory 35(4)" }
+    ],
+    "modern_era": "The wendigo is engaged with today on three fronts: as a living element of Algonquian community teaching (notably articulated by Anishinaabe writer Basil Johnston and Potawatomi botanist Robin Wall Kimmerer); as a continuing object of academic ethnohistory (Brady DeSanti, Nathan Carlson, Shawn Smallman); and as a horror-fiction trope in contemporary novels, films, and games — a use that Indigenous scholars have repeatedly criticised as decontextualising and harmful."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
@@ -89,38 +159,222 @@
       "disputed": 0,
       "debunked": 0
     },
-    "notable": [],
+    "notable": [
+      {
+        "id": "wendigo-sighting-1878-swift-runner",
+        "name": "Swift Runner (Ka-Ki-Si-Kutchin) wendigo case",
+        "date": { "value": "1878-12-01", "precision": "approximate" },
+        "location": {
+          "description": "Near Fort Saskatchewan, North-West Territories (now Alberta), Canada",
+          "country": "Canada",
+          "region": "Alberta",
+          "coordinates": { "latitude": 53.7167, "longitude": -113.2167, "precision": "approximate" }
+        },
+        "witnesses": { "count": 1, "types": ["Defendant's confession", "North-West Mounted Police investigation"], "credibility_factors": ["Police investigation and recovery of remains", "Court trial and conviction"] },
+        "description": "Plains Cree man Swift Runner killed and cannibalised his wife, mother, brother, and six children in the winter of 1878–1879, despite sufficient food being available at a nearby Hudson's Bay Company post. He confessed and reportedly described his condition in terms of being possessed by a wendigo. He was tried and hanged at Fort Saskatchewan on December 20, 1879 — the first judicial execution in what is now Alberta.",
+        "credibility": { "rating": "high", "factors": ["Documented police investigation", "Court trial", "Multiple historical secondary accounts"], "notes": "Frequently cited in the wendigo-psychosis debate as the strongest single behavioural case." },
+        "sources": ["Carlson, N. (2009), 'Reviving Witiko (Windigo)', Ethnohistory 56(3)"],
+        "featured": true
+      },
+      {
+        "id": "wendigo-sighting-1907-fiddler",
+        "name": "Jack Fiddler / Joseph Fiddler wendigo arrests",
+        "date": { "value": "1907-09-30", "precision": "exact" },
+        "location": {
+          "description": "Sandy Lake / Norway House region, northwestern Ontario / Manitoba",
+          "country": "Canada",
+          "region": "Ontario / Manitoba",
+          "coordinates": { "latitude": 53.0, "longitude": -93.5, "precision": "region" }
+        },
+        "witnesses": { "count": 0, "types": ["North-West Mounted Police", "Sucker clan community"], "credibility_factors": ["Court records", "Subsequent oral history collected from descendants"] },
+        "description": "Oji-Cree leaders Jack Fiddler (Zhauwuno-geezhigo-gaubow) and his brother Joseph Fiddler were arrested by the North-West Mounted Police on charges relating to the death of Wahsakapeequay, said within their community to have been turning into a wendigo. Jack Fiddler died by suicide in custody on September 30, 1907; Joseph was convicted of murder and died in prison before a release order arrived.",
+        "conditions": { "weather": "Late summer / early autumn", "visibility": "n/a", "time_of_day": "n/a", "duration": "Multi-month legal process" },
+        "evidence": ["Royal Canadian Mounted Police court records", "Sucker-clan oral history (Thomas Fiddler & James Stevens)"],
+        "credibility": { "rating": "high", "factors": ["Documented colonial-court record", "Subsequent Sucker-clan oral history collection"], "notes": "Marks the imposition of Canadian colonial law over Sucker-clan traditional practice on the wendigo." },
+        "sources": ["Fiddler, T. & Stevens, J. R. (1985), Killing the Shamen"],
+        "featured": true
+      }
+    ],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "wendigo-evidence-jesuit-relations",
+        "type": "missionary records",
+        "name": "Jesuit Relations (17th century)",
+        "description": "Earliest non-Indigenous documentary references to wendigo / atshen beliefs in New France.",
+        "status": "verified",
+        "analysis": "Earliest layer of European-language documentary record of Algonquian wendigo tradition.",
+        "source": "Jesuit Relations (publ. 17th c.; ed. R. G. Thwaites)"
+      },
+      {
+        "id": "wendigo-evidence-marano-brightman",
+        "type": "scholarly debate",
+        "name": "Marano vs Brightman wendigo-psychosis debate",
+        "date": "1982-1988",
+        "description": "Marano (1982) in Current Anthropology argued there was no behavioural wendigo psychosis; Brightman (1988) in Ethnohistory argued in response that the witiko complex was historically substantive.",
+        "status": "disputed",
+        "analysis": "Defines the principal modern scholarly debate over the 'wendigo psychosis' construct.",
+        "source": "Marano (1982); Brightman (1988)"
+      }
+    ]
   },
+
   "theories": {
-    "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "paranormal": [
+      {
+        "name": "Real Algonquian spirit-being",
+        "description": "Within many Algonquian community teachings the wendigo is a real spirit-being and not merely a metaphor; engagement with the wendigo is part of a coherent moral and cosmological order.",
+        "proponents": ["Algonquian community knowledge-keepers (e.g. Basil Johnston)"],
+        "evidence_cited": ["Continuous oral tradition", "Documented community ritual responses to wendigo cases"]
+      }
+    ],
+    "scientific": [
+      {
+        "name": "Wendigo psychosis as culture-bound syndrome (challenged)",
+        "description": "Earlier 20th-century anthropology and psychiatry described 'wendigo psychosis' as a culture-bound syndrome involving cannibalistic compulsion. Lou Marano (1982) argued that this construct was an emic–etic confusion with little behavioural reality; Robert Brightman (1988) and later ethnohistorians (Carlson 2009) responded with documentary evidence for substantive witiko cases.",
+        "proponents": ["Marano, L. (skeptical)", "Brightman, R. A. (defending material reality)", "Carlson, N. (2009)"],
+        "evidence_cited": ["Court records (Swift Runner, Fiddler)", "Cree and Métis oral history", "Comparative culture-bound-syndrome scholarship"]
+      },
+      {
+        "name": "Famine, isolation, and starvation pathology",
+        "description": "Mainstream medical-anthropological readings interpret historical 'wendigo' incidents as the social interpretation of starvation cannibalism, severe psychiatric disorder, or both, in extreme boreal-forest winters.",
+        "proponents": ["Various medical anthropologists and historians"],
+        "evidence_cited": ["Documented co-occurrence with severe famine", "Comparable starvation-cannibalism in other contexts"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Cultural-symbolic reading",
+        "description": "Some Indigenous and non-Indigenous scholars (e.g. Jack D. Forbes, Robin Wall Kimmerer) read the wendigo primarily as a moral and ecological symbol of unrestrained greed and consumption — a reading that does not require a literal external entity.",
+        "proponents": ["Jack D. Forbes (Powhatan-Renapé / Lenape)", "Robin Wall Kimmerer (Citizen Potawatomi)"],
+        "evidence_cited": ["Forbes, J. D. (2008), Columbus and Other Cannibals", "Kimmerer, R. W. (2013), Braiding Sweetgrass"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Anishinaabe (Ojibwe) wiindigoo tradition",
+        "Cree wīhtikōw / wetiko tradition",
+        "Innu atchen tradition",
+        "Algonquin and Saulteaux wendigo teachings"
+      ],
+      "stories": [
+        "Swift Runner case (1878–1879)",
+        "Jack Fiddler and Joseph Fiddler case (1907)",
+        "Numerous community-specific wendigo teachings preserved orally and in compilations such as Basil Johnston's The Manitous"
+      ],
+      "beliefs": "Across Algonquian communities, the wendigo is associated with the gravest social taboo (cannibalism), with greed, with winter, and with the transformative consequences of unchecked appetite. Community responses historically included ritual, communal action, and at times the killing of the afflicted person."
+    },
+    "indigenous": {
+      "cultures": ["Anishinaabe (Ojibwe)", "Cree (Plains, Woodland, Swampy)", "Innu (Naskapi-Montagnais)", "Algonquin", "Saulteaux", "Oji-Cree"],
+      "significance": "An integral feature of Algonquian moral, ecological, and spiritual thought; not reducible to a horror trope.",
+      "sensitivity_note": "The wendigo is sacred or at least tradition-internal material in many Algonquian communities. Indigenous scholars (e.g. Basil Johnston, Robin Wall Kimmerer, Brady DeSanti) have repeatedly criticised the use of the wendigo in non-Indigenous horror fiction as decontextualising and harmful.",
+      "respect_guidelines": "Foreground Indigenous-authored sources; do not depict the wendigo as a generic monster; distinguish community teachings from Algernon Blackwood's literary creation and from horror-genre uses."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
-      "games": [],
+      "literature": [
+        "Algernon Blackwood, The Wendigo (1910)",
+        "Basil Johnston, The Manitous (1995)",
+        "Jack D. Forbes, Columbus and Other Cannibals (1979 / rev. 2008)",
+        "Robin Wall Kimmerer, Braiding Sweetgrass (2013)",
+        "Stephen King, Pet Sematary (1983)",
+        "Louise Erdrich, The Round House (2012)"
+      ],
+      "film_tv": [
+        "Wendigo (Larry Fessenden, 2001)",
+        "Antlers (Scott Cooper, 2021)",
+        "Hannibal (NBC, 2013–2015) — uses wendigo imagery",
+        "Various episodes of Supernatural (CW)"
+      ],
+      "games": [
+        "Until Dawn (Supermassive Games, 2015)",
+        "The Long Dark — environmental homage"
+      ],
+      "music": [],
       "other": []
     }
   },
+
   "research": {
-    "researchers": [],
+    "researchers": [
+      { "name": "Basil Johnston", "affiliation": "Anishinaabe (Cape Croker First Nation) writer and ethnographer", "contribution": "Major Indigenous-authored treatment of Anishinaabe spiritual beings, including the wiindigoo (The Manitous, 1995)", "period": "Late 20th century" },
+      { "name": "Lou Marano", "affiliation": "Anthropologist", "contribution": "1982 critique of the 'windigo psychosis' construct in Current Anthropology", "period": "Late 20th century" },
+      { "name": "Robert A. Brightman", "affiliation": "Reed College (anthropology)", "contribution": "1988 Ethnohistory response defending the historical reality of the witiko complex", "period": "Late 20th century" },
+      { "name": "Nathan Carlson", "affiliation": "University of Alberta (history)", "contribution": "2009 'Reviving Witiko (Windigo)' ethnohistory of Athabasca Cree and Métis cases", "period": "21st century" },
+      { "name": "Brady DeSanti", "affiliation": "University of Nebraska Omaha (religion)", "contribution": "Scholarship on the wendigo in Ojibwe tradition and popular culture", "period": "21st century" }
+    ],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "Wendigo material is engaged with within Algonquian community knowledge transmission, ethnohistory, anthropology, and Indigenous-led environmental ethics; there is no cryptozoological field-investigation programme."
   },
-  "sources": []
+
+  "sources": [
+    {
+      "id": "wikipedia-wendigo",
+      "type": "website",
+      "title": "Wendigo",
+      "url": "https://en.wikipedia.org/wiki/Wendigo",
+      "publication": "Wikipedia",
+      "accessed": "2026-05-07"
+    },
+    {
+      "id": "blackwood-1910",
+      "type": "book",
+      "title": "The Wendigo",
+      "authors": ["Algernon Blackwood"],
+      "publication": "Eveleigh Nash",
+      "date": "1910"
+    },
+    {
+      "id": "johnston-1995",
+      "type": "book",
+      "title": "The Manitous: The Spiritual World of the Ojibway",
+      "authors": ["Basil Johnston"],
+      "publication": "HarperCollins",
+      "date": "1995",
+      "isbn": "978-0060172473"
+    },
+    {
+      "id": "marano-1982",
+      "type": "paper",
+      "title": "Windigo Psychosis: The Anatomy of an Emic-Etic Confusion",
+      "authors": ["Lou Marano"],
+      "publication": "Current Anthropology",
+      "date": "1982"
+    },
+    {
+      "id": "brightman-1988",
+      "type": "paper",
+      "title": "The Windigo in the Material World",
+      "authors": ["Robert A. Brightman"],
+      "publication": "Ethnohistory",
+      "date": "1988"
+    },
+    {
+      "id": "carlson-2009",
+      "type": "paper",
+      "title": "Reviving Witiko (Windigo): An Ethnohistory of 'Cannibal Monsters' in the Athabasca District of Northern Alberta, 1878–1910",
+      "authors": ["Nathan Carlson"],
+      "publication": "Ethnohistory 56(3)",
+      "date": "2009",
+      "doi": "10.1215/00141801-2009-001"
+    },
+    {
+      "id": "fiddler-stevens-1985",
+      "type": "book",
+      "title": "Killing the Shamen",
+      "authors": ["Thomas Fiddler", "James R. Stevens"],
+      "publication": "Penumbra Press",
+      "date": "1985"
+    }
+  ]
 }
